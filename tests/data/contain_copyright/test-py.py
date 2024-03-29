@@ -1,4 +1,5 @@
-# Copyright (c) OpenMMLab. All rights reserved.
+""" Copyright (c) Baidu Netdisk. All rights reserved.
+"""
 import os
 
 if __name__ == '__main__':

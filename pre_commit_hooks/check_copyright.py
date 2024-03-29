@@ -3,7 +3,7 @@ import os
 import os.path as osp
 from typing import List
 
-HEADER = 'Copyright (c) Baidu Netdisk. All rights reserved.\n'
+HEADER = 'Copyright (c) Baidu Netdisk. All rights reserved.'
 
 HEADER_KEYWORDS = {'Copyright', 'License'}
 
@@ -130,8 +130,8 @@ def check_copyright(includes: List[str],
                 with open(filepath, 'w', encoding='utf-8') as f:
                     prefix = '""" ' if osp.splitext(
                         filepath)[1] == '.py' else '// '
-                    suffix = '\n""" ' if osp.splitext(
-                        filepath)[1] == '.py' else ''
+                    suffix = '\n"""\n' if osp.splitext(
+                        filepath)[1] == '.py' else '\n'
                     f.writelines([prefix + HEADER + suffix] + lines)
                     rev = 1
     for filepath in fixed_filepaths:
