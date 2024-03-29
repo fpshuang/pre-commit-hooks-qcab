@@ -81,3 +81,17 @@ Usage:
     hooks:
     -   id: remove-improper-eol-in-cn-docs
 ```
+
+### check-baidu-heading
+
+Automatic add heading to pass BAIDU's NONSENSE icode coding check.
+
+Usage:
+
+```yaml
+  - repo: https://github.com/FreakieHuang/pre-commit-hooks-qcab
+    rev: v1.0.8
+    hooks:
+      - id: check-baidu-heading
+        args: [ "name", "of", "folders"]
+```
