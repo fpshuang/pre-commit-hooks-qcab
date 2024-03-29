@@ -3,7 +3,7 @@ import os
 import os.path as osp
 from typing import List
 
-HEADER = 'Copyright (c) Pengsheng HUANG. All rights reserved.\n'
+HEADER = 'Copyright (c) Baidu Netdisk. All rights reserved.\n'
 
 HEADER_KEYWORDS = {'Copyright', 'License'}
 
