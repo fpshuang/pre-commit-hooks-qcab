@@ -1,3 +1,4 @@
+// Author: Netdisk-AI team.
 #include "test-h.h"
 
 // function to add the elements of two arrays

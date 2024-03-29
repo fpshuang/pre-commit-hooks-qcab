@@ -1,4 +1,4 @@
-""" Copyright (c) Baidu Netdisk. All rights reserved.
+"""Author: Netdisk-AI team.
 """
 import os
 
