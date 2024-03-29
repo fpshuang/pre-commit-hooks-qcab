@@ -128,9 +128,9 @@ def check_copyright(includes: List[str],
             if not has_copyright(lines):
                 fixed_filepaths.append(filepath)
                 with open(filepath, 'w', encoding='utf-8') as f:
-                    prefix = '""" ' if osp.splitext(
+                    prefix = '# ' if osp.splitext(
                         filepath)[1] == '.py' else '// '
-                    suffix = '\n"""\n' if osp.splitext(
+                    suffix = '\n' if osp.splitext(
                         filepath)[1] == '.py' else '\n'
                     f.writelines([prefix + HEADER + suffix] + lines)
                     rev = 1
