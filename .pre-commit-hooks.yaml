@@ -27,6 +27,14 @@
   require_serial: true
   pass_filenames: false
 
+- id: check-baidu-heading
+  name: check baidu heading
+  description: check baidu author heading
+  language: python
+  entry: check-baidu-heading
+  require_serial: true
+  pass_filenames: false
+
 - id: check-ecosystem-validity
   name: check ecosystem validity
   description: check validity of yaml
