@@ -3,9 +3,9 @@ import os
 import os.path as osp
 from typing import List
 
-HEADER = 'Author: Netdisk-AI team.'
+HEADER = 'Author: GitHub @fpshuang <frank0huang@foxmail.com>\n' 
 
-HEADER_KEYWORDS = {'Author', 'Netdisk-AI', 'team'}
+HEADER_KEYWORDS = {'Author', '@fpshuang'}
 
 
 def has_heading(lines: List[str]) -> bool:
